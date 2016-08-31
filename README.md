@@ -20,8 +20,8 @@
 * LeNet-5
 
 <style type="text/css">
-    talbe, td{
-        font-size:19px;
+    table, td{
+        font-size:9px;
     }
 </style>
 <table>
