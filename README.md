@@ -19,11 +19,7 @@
 
 * LeNet-5
 
-<style type="text/css">
-    table, td{
-        font-size:9px;
-    }
-</style>
+
 <table>
 <thead style="background-color: #4CAF50;color=white;">
 	<tr>
@@ -35,7 +31,7 @@
 	    </thead>
 	<tr>
 	<td colspan="2">Input</td>
-	<td>Data 1 x 32 x 32</td>
+	<td>Data 1x32x32</td>
 	<td></td>
 	<td></td>
     </tr>
@@ -44,7 +40,7 @@
     <tr>
     <td rowspan="2">Layer 1</td>
     <td>C1</td>
-    <td>Convolution : 6 x 5 x 5, Stride = 1</td>
+    <td>Convolution : 6 x 5x5, Stride=1</td>
     <td>(1x5x5+1)x6=55</td>
     <td>(32-5)/1+1=28 &#8594; 28x28x6</td>
     </tr>
@@ -58,7 +54,7 @@
     <tr>
     <td rowspan="2">Layer 2</td>
     <td>C3</td>
-    <td>Convolution : 16 x 5 x 5, Stride=1</td>
+    <td>Convolution : 16 x 5x5, Stride=1</td>
     <td>(6x5x5+1)x16=2416</td>
     <td>(14-5)/1+1=10 &#8594; 10x10x16</td>
     </tr>
